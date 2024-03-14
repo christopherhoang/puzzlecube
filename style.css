@@ -1,0 +1,44 @@
+body {
+    background: black;
+    color: white;
+  }
+
+header{
+    text-align: center;
+    /* CSS Box */
+    border: 5px solid #eaeff5;
+}
+
+h1 {
+  font-family: "Emblema One";
+}
+
+h2{
+    text-align: center;
+}
+
+#myname {
+    font-family: "Permanent Marker", cursive;
+    font-size: 18px;
+  }
+
+/* Style For Card Suit Symbol Dividers */
+.suit {
+  color: red;
+  font-size: 24px;
+}
+
+#designbrief {
+    border: 5px solid #eaeff5;
+    padding: 20px;
+}
+
+#projectdesign{
+    border: 5px solid #eaeff5;
+    padding: 20px;
+}
+
+/* list title */
+.lt{
+    font-weight: bold;
+}

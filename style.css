@@ -14,13 +14,14 @@ h1 {
   font-family: "Emblema One", system-ui;
 }
 
-h2{
+h2, .centered-content {
     text-align: center;
 }
 
-p{
-    font-family: "Roboto", sans-serif;
+p, ul, ol {
+  font-family: "Roboto", sans-serif;
 }
+
 
 #myname {
     font-family: "Permanent Marker", cursive;
@@ -59,10 +60,6 @@ img {
 img:hover {
   -webkit-transform:scale(1.5);
   transform:scale(1.5);
-}
-
-.centered-content {
-  text-align: center;
 }
 
 #choicejust{

@@ -7,14 +7,19 @@ header{
     text-align: center;
     /* CSS Box */
     border: 5px solid #eaeff5;
+    padding: 1em;
 }
 
 h1 {
-  font-family: "Emblema One";
+  font-family: "Emblema One", system-ui;
 }
 
 h2{
     text-align: center;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
 }
 
 #myname {
@@ -28,17 +33,45 @@ h2{
   font-size: 24px;
 }
 
-#designbrief {
-    border: 5px solid #eaeff5;
-    padding: 20px;
-}
-
-#projectdesign{
-    border: 5px solid #eaeff5;
-    padding: 20px;
-}
-
 /* list title */
 .lt{
-    font-weight: bold;
+  font-weight: bold;
 }
+
+.sections {
+    border: 5px solid #eaeff5;
+    padding: 20px;
+}
+
+/* .centeredimg{ */
+img {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 425px;
+  height: auto;
+  object-fit: contain;
+  /* border: 50px solid #eaeff5; */
+  /* border-left: 50px solid black; */
+  transition:transform 0.25s ease;
+}
+
+img:hover {
+  -webkit-transform:scale(1.5);
+  transform:scale(1.5);
+}
+
+.centered-content {
+  text-align: center;
+}
+
+#choicejust{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    position: relative; 
+    display: inline-block; 
+    padding-left: 1em; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+

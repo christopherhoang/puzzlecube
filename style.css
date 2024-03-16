@@ -18,6 +18,10 @@ h2, .centered-content {
     text-align: center;
 }
 
+h4 {
+  font-size: 20px;
+}
+
 p, ul, ol {
   font-family: "Roboto", sans-serif;
 }
@@ -72,3 +76,8 @@ img:hover {
     transform: translateX(-50%); 
 }
 
+#math{
+  p{
+    font-size: 14px;
+  }
+}
